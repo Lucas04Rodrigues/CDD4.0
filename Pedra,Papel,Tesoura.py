@@ -24,5 +24,3 @@ if jogador1 == 2:
         elif jogador2 == 1:
             print(f" O jogador 1 venceu")
 print("jogo acabou")
-
-git git
