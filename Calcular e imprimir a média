@@ -1,0 +1,18 @@
+#Escreva codigo duas notas 1a e 2a
+#calcular e imprimir a media
+#só é aceito (0, 10)
+# deseja realizar novo calculo?
+conti = "s"
+while conti in "s":
+
+    nota1 = float(input("Digite uma nota"))
+    while nota1<0 or nota1>10:
+        nota1=float(input("Numero invalido, tente novamente"))
+
+    nota2 = float(input("Digite uma nota"))
+    while nota2<0 or nota2>10:
+        nota2=float(input("Numero invalido, tente novamente"))
+        media= (nota1+nota2)/2
+        print(media)
+    conti = input("Deseja continuar? ")
+print("P*rograma finalizado")
